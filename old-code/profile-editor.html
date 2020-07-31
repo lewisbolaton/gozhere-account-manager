@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Edit Profile</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="./css/profile-editor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <div id="profile-editor">
+      <div>
+        <!--
+        <div>
+          <span>Juan</span>
+          <button type="submit" name="first-name-edit">Edit</button>
+
+          <input type="text" name="first-name-" value="Juan">
+          <button type="submit" name="first-name-confirm-edit">Confirm Edit</button>
+          <button type="reset" name="first-name-cancel-edit">Cancel</button>
+        </div>
+        -->
+        <profile-info val="Juan"></profile-info>
+        <profile-info val="dela Cruz"></profile-info>
+      </div>
+      <div>
+        <profile-info val="juandelacruz@email.com" />
+      </div>
+      <div>
+        <profile-info val="+639154321234" />
+      </div>
+      <button id="resetPassword">Reset Password</button>
+    </div>
+    <script type="text/javascript" src="profile-editor.js"></script>
+  </body>
+</html>

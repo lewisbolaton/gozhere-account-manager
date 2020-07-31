@@ -1,0 +1,130 @@
+div#profile-editor {
+  width: 40%;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+}
+
+.material-icons {
+  font-size: 24px !important;
+}
+
+/*
+VIEW DIV COMPONENT
+*/
+
+div.view {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4px;
+}
+
+div.view:hover {
+  border: 2px solid gray;
+  border-radius: 12px;
+
+  padding: 2px;
+
+  cursor: default;
+}
+
+div.view span {
+  width: 100%;
+  margin-left: 0.5rem;
+
+  font-family: 'Barlow', sans-serif;
+  color: black;
+}
+
+div.view button {
+  cursor: pointer;
+  margin: 4px;
+
+  display: inline-block;
+}
+
+div.view button:focus {
+  outline: none;
+}
+
+
+/*
+EDIT COMPONENT
+*/
+
+div.edit {
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+
+  border: 2px solid #707070;
+  border-radius: 12px;
+
+  padding: 4px;
+}
+
+div.edit input {
+  border: none;
+  padding: 0px;
+  width: 100%;
+
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  text-transform: bold;
+  color: #0076fc;
+}
+
+div.edit input:focus {
+  outline: none;
+}
+
+div.edit div {
+  display: flex;
+  flex-direction: horizontal;
+
+}
+
+div.edit button {
+  cursor: pointer;
+}
+
+div.edit button.confirm {
+  background: rgb(255,218,0);
+  background: linear-gradient(to right, rgba(255,170,0,1) 0%, rgba(255,127,0,1) 100%);
+  border: 1px solid black;
+}
+
+div.edit button.cancel {
+  background-color: transparent;
+}
+
+/*
+RESET PASSWORD BUTTON
+*/
+
+button#resetPassword {
+  background: rgb(255,218,0);
+  background: linear-gradient(to right, rgba(255,170,0,1) 0%, rgba(255,127,0,1) 100%);
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.9rem;
+  color: white;
+  text-transform: uppercase;
+
+  padding: 0.4em;
+  width: 33%;
+
+  border: 1px solid white;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+}
+
+button#resetPassword:hover {
+  cursor: pointer;
+}
